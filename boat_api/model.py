@@ -11,7 +11,7 @@ class BoatType(Enum):
 @dataclass
 class Boat:
     name: str
-    type: str
+    type: BoatType
     owner: str
 
 
