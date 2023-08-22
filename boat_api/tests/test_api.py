@@ -1,7 +1,9 @@
 ﻿import pytest
 from boat_api.app import FlaskAppFactory
 from boat_api.routes import add_routes
+from boat_api.utils.config import load_config
 
+load_config()
 
 @pytest.fixture()
 def app():
