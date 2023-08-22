@@ -5,6 +5,7 @@ import logging
 from os import getenv
 from flask_sqlalchemy import SQLAlchemy
 
+
 class FlaskAppFactory:
     """
     Creates a Flask app with config and logger
